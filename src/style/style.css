@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  color: rgb(145, 99, 21); 
+}
+
+.app-container {
+  height: auto;
+  min-height: 58.5rem;
+  background: url('../img/maple-leaf.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.posts-index .navigation-bar {
+  padding: 1rem 3rem;
+  background: linear-gradient(to right, rgba(175, 122, 29, 0.7), rgba(255, 255, 255, .7)) ;
+}
+
+.posts-index .app-title {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.app-title:hover {
+  color: rgb(173, 68, 26);;
+}
+
+.diary {
+  height: 90vh;
+  min-height: 200px;
+  
+}
+
+.navigation-bar .add-new-button {
+  float: right;
+}
+
+.navigation-bar .add-new-button,
+.submit-btn {
+  border-radius: 0;
+  box-shadow: 0 2px 2px rgba(173, 68, 26, .5);
+  padding: 0.5rem 1rem;
+  background-color: rgb(175, 122, 29);
+  color: #fff;
+}
+
+.navigation-bar .add-new-button:hover,
+.submit-btn:hover {
+  background-color: rgb(173, 68, 26);
+}
+
+.posts-list {
+  padding: 5rem 0;
+}
+
+.list-group-title {
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.list-posts {
+  width: 80%;
+  margin: auto;
+}
+
+.list-posts-item {
+  background-color: rgb(242, 242, 241);
+  border: none;
+}
+
+.list-posts-item .list-posts-item-title {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: rgb(175, 122, 29); 
+}
+
+.text-truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+/*===================================
+  ADD NEW PAGE
+=====================================*/
+
+.form-title {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.form-inputField {
+  margin-bottom: 2rem;
+}
+
+.submit-btn {
+  margin-right: 1rem;
+  outline: none;
+  border: none;
+}
+
+.delete-button {
+  float: right;
+}
+
+.cancel-btn,
+.delete-button {
+  background-color: rgb(123, 10, 25);
+  color: #fff;
+}
+
+.cancel-btn:hover,
+.delete-button:hover {
+  background-color: rgb(165, 16, 36);
+  color: #fff;
+}
+
+
+/*===================================
+  SINGLE POST
+=====================================*/
+
+.single-post {
+  padding: 5rem 0;
+}
+
+.single-post-title {
+  margin-top: 3rem;
+}
+
+.single-post-category {
+  margin-bottom: 3rem;
+  font-size: 1rem;
+}
+
+.single-post-content {
+  font-size: 1.5rem;
+}
+
+.link,
+.link:hover {
+  text-decoration: none;
+  color: rgb(123, 10, 25);
+  font-size: 1.2rem;
+}
+
+
+/*===================================
+  FOOTER
+=====================================*/
+
+.app-footer {
+  min-height: 4rem;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(to top, rgba(175, 122, 29, 0.7), rgba(255, 255, 255, .7)) ;
+}
+
+.app-footer-text {
+  margin: auto;
+  padding-top: 1rem;
+}
+
+/*===================================
+  MEDIA QUERY
+=====================================*/
+
+@media (max-width: 563px) {
+  .posts-index .navigation-bar {
+    padding: 1rem;
+  }
+
+  .delete-button {
+    float: right;
+  }
+}
