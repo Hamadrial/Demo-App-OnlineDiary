@@ -1,6 +1,6 @@
 {
-  "name": "Online-diary",
-  "homepage": " https://hamadrial.github.io/Online-diary/",
+  "name": "online-diary",
+  "homepage": " https://hamadrial.github.io/Demo-App-OnlineDiary/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
